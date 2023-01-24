@@ -1,0 +1,31 @@
+@charset "utf-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #4B4952, #A68F97);
+}
+
+main {
+    background-color: white;
+    border-radius: 10px; /* Dá os estilo redondo a caixa */
+    box-shadow: 10px 10px 30px #3e3d44; /* Sombreamento da caixa, o 1º parametro é quanto ela vai andar para o lado, o 2º é quanto ela vai andar para baixo e o 3º parametro é quanto de transparencia ela vai ter com a cor  */
+    width: 600px; /* largura */
+    padding: 10px; /* espacinho ou acochoadamento */
+    margin: auto; /* Centralizar o caixa no meio independente do tamanho */
+}
+
+h1 {
+    color: #1F2024;
+    text-align: center; /* Alinhamento de texto (titulo) no centro */
+    text-shadow: 1px 1px 2px #131416;
+}
+
+h2 {
+    color: #79717A;
+}
+p {
+    text-align: justify;
+}
