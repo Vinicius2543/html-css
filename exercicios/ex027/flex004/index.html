@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+    <style>
+        .container{
+            background-color: lightsalmon;
+            display: flex;
+            height: 300px;
+            flex-flow: row nowrap;
+            /* justify-content: space-between; Gruda os elementos no inicio e fim e os separa */
+            /* justify-content: space-evenly; separa igualmente o espaço dos itens */
+            /* justify-content: space-around; da um espaço no inicio e 2 espaços no meio dos itens */
+            justify-content: space-around;
+            /* align-items: stretch; faz com o height ocupe todo o espaço vertical */
+            align-items: start;
+            
+        }
+        .item{
+            background-color: lightblue;
+            border: 1px solid black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">A</div>
+        <div class="item">B</div>
+        <div class="item">C</div>
+        <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">G</div>
+    </div>
+</body>
+</html>
